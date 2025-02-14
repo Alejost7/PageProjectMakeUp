@@ -1,0 +1,25 @@
+# Dependencias del proyecto
+node_modules/
+
+# Archivos de configuración del entorno
+.env
+
+# Archivos de compilación y cache
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+
+# Archivos de configuración de herramientas
+.eslintcache
+.stylelintcache
+.coverage/
