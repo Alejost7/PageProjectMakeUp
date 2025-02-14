@@ -1,0 +1,166 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Amora Cosmetics</title>
+    <link rel="icon" href="image/AmoraCosmeticLogo.png" type="image/png">
+</head>
+<body>
+    <nav id="navBar"> 
+        <div class="navTop">
+            <div class="navItem">
+                <div class="logo">
+                    <img src="image/AMORACOSMETICS.png" alt="" data-section-id="home" onclick="showSection('home')" class="logoImg">
+                </div>
+            </div>
+            <div class="navItem">
+                <div class="seach">
+                    <input type="text" placeholder="Busca lo mejor para ti..." class="searchInput">
+                    <img src="image/searchIcon.png" width="20px" height="20px"  alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="mensajeEspecial">Conoce Mas!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem" onclick="showSection('rostro')" data-section-id="rostro">ROSTRO</h3>
+            <h3 class="menuItem" onclick="showSection('ojos')" data-section-id="ojos">OJOS</h3>
+            <h3 class="menuItem" onclick="showSection('labios')" data-section-id="labios">LABIOS</h3>
+            <h3 class="menuItem" onclick="showSection('cuidadoPiel')" data-section-id="cuidadoPiel">CUIDADO DE LA PIEL</h3>
+            <h3 class="menuItem" onclick="showSection('cabello')" data-section-id="cabello">CABELLO</h3>
+            <h3 class="menuItem" onclick="showSection('uñas')" data-section-id="uñas">UÑAS</h3>
+        </div>
+    </nav>
+    <div id="home" class="section">
+        <div class="homeWrapper">
+            <img src="image/bannerAmoraCosmetics.png" alt="" class="homeImge">
+            <div>
+                <div class="row">
+                    <div class="column">
+                        <h1 class="homeTitle">BIENVENIDO A AMORA COSMETICS</h1>
+                        <p class="homeDescription">En Amora Cosmetics nos preocupamos por tu belleza y bienestar, por eso te ofrecemos los
+                            mejores productos para el cuidado de tu piel, cabello y uñas. </p>
+                    </div>
+                    <div class="column">
+                        <h1 class="homeTitle">NUESTROS PRODUCTOS</h1>
+                        <p class="homeDescription">Contamos con una amplia variedad de productos para el cuidado de tu piel, cabello y uñas.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <h1 class="homeTitle">¿POR QUÉ ELEGIRNOS?</h1>
+                        <p class="homeDescription">En Amora Cosmetics nos preocupamos por tu belleza y bienestar, por eso te ofrecemos los
+                            mejores productos para el cuidado de tu piel, cabello y uñas. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>>
+    <div id="sliderProducts" class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="image/cara.png" alt="" class="sliderImg">
+                <div class="slideBg">
+                    <h1 class="sliderTitle">LO MEJOR </br> PARA TU </br> ROSTRO</h1>
+                    <h1 class="sliderPrice">DESDE $800</h1>
+                    <button class="buyButton">COMPRA AHORA!</button>
+                </div>
+            </div>
+            <div class="sliderItem">
+                <img src="image/ojos.png" alt="" class="sliderImg">
+                <div class="slideBg">
+                    <h1 class="sliderTitle">CUIDA </br> TUS </br> OJOS</h1>
+                    <h1 class="sliderPrice">DESDE $800</h1>
+                    <button class="buyButton">COMPRA AHORA!</button>
+                </div>
+            </div>
+            <div class="sliderItem">
+                <img src="image/labios.png" alt="" class="sliderImg">
+                <div class="slideBg">
+                    <h1 class="sliderTitle">ELEGANCIA Y</br> BELLEZA </h1>
+                    <h1 class="sliderPrice">DESDE $800</h1>
+                    <button class="buyButton">COMPRA AHORA!</button>
+                </div>
+            </div>
+            <div class="sliderItem">
+                <img src="image/cuidadoPiel.png" alt="" class="sliderImg">
+                <div class="slideBg">
+                    <h1 class="sliderTitle">DISFRUTA </br> TU PIEL</h1>
+                    <h1 class="sliderPrice">DESDE $800</h1>
+                    <button class="buyButton">COMPRA AHORA!</button>
+                </div>
+            </div>
+            <div class="sliderItem">
+                <img src="image/cabello.png" alt="" class="sliderImg">
+                <div class="slideBg">
+                    <h1 class="sliderTitle">ABUNDANCIA </br> PARA TU </br> CABELLO</h1>
+                    <h1 class="sliderPrice">DESDE $800</h1>
+                    <button class="buyButton">COMPRA AHORA!</button>
+                </div>
+            </div>
+            <div class="sliderItem">
+                <img src="image/uñas.png" alt="" class="sliderImg">
+                <div class="slideBg">
+                    <h1 class="sliderTitle">LUCE TU</br> MEJOR</br> DISEÑO</h1>
+                    <h1 class="sliderPrice">DESDE $800</h1>
+                    <button class="buyButton">COMPRA AHORA!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products">
+        <div id="rostro" class="section" style="display: none;">
+            <h1 class="generalTitle">CONOCE LOS PRODUCTOS QUE TENEMOS </br> DISPONIBLES PARA TI</h1>
+            <div class="containerProducts">
+            </div>
+        </div>
+        <div id="ojos" class="section" style="display: none;">
+            <div class="containerProducts">
+            </div>
+        </div>
+        <div id="labios" class="section" style="display: none;">
+            <img src="image/searchIcon.png" alt="" class="imagenSection">
+        </div>
+        <div id="cuidadoPiel" class="section" style="display: none;">
+            <img src="image/cabello.png" alt="" class="imagenSection">
+        </div>
+        <div id="cabello" class="section" style="display: none;">
+            <img src="image/imageRelationaded.png" alt="" class="imagenSection">
+        </div>
+        <div id="uñas" class="section" style="display: none;">
+            <img src="image/uñas.png" alt="" class="imagenSection">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">SOBRE NOSOTROS</h1>
+                <ul class="fList">
+                    <li class="fListItem">Contactanos</li>
+                    <li class="fListItem">Redes Sociales</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">CONTACTANOS</h1>
+                <ul class="fList">
+                    <li class="fListItem">Contactanos</li>
+                    <li class="fListItem">Redes Sociales</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">REDES SOCIALES</h1>
+                <ul class="fList">
+                    <li class="fListItem">Contactanos</li>
+                    <li class="fListItem">Redes Sociales</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
