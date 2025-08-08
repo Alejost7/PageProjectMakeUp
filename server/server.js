@@ -13,5 +13,7 @@ app.get('/productos', (req, res) => {
     res.json(productos);
 });
 
-// Servidor escuchando en el puerto 3000
-app.listen(3000, () => console.log("Servidor en http://localhost:3000"));
+// Servidor abierto en el puerto 3000
+app.listen(3000, () => {
+    console.log("Servidor en http://localhost:3000");
+});
